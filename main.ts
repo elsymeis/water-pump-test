@@ -6,7 +6,7 @@ input.onButtonPressed(Button.A, function () {
     )
 })
 input.onButtonPressed(Button.AB, function () {
-    basic.showString("" + (gatorSoil.moisture(AnalogPin.P2, GatorSoilType.Moisture, DigitalPin.P1)))
+    basic.showString("" + (gatorSoil.moisture(AnalogPin.P0, GatorSoilType.Moisture, DigitalPin.P1)))
 })
 input.onButtonPressed(Button.B, function () {
     basic.showString("" + (gatorEnvironment.getMeasurement(measurementType.degreesF)))
